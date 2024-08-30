@@ -1,0 +1,18 @@
+
+
+body{
+    background-image: url(./bilder/72263635_130494861720064_3333337248431344092_n\ \(1\).jpg)
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    font-family: monospace;
+}
+h2{ 
+    font-size: 40px;
+    color:rgb(255, 132, 0)
+}
+p{
+font-size: 20px;
+color: rgb(255, 208, 0);
+}
