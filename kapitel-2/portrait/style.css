@@ -1,0 +1,32 @@
+body {
+    background-image: url(./bilder/Flag_of_Pakistan.svg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+h1{
+  font-size: 50px; 
+  text-align: center;
+  margin-top: 70px;
+  color: burlywood;
+  text-shadow: 3px 2px 0px rgb(100, 73, 38);
+}
+p{
+    padding-left: 30px;
+    font-size: 20px;
+    font-style:italic;
+    width: 260px;
+}
+img.first {
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    border: 5px solid black;
+    width: 300px;
+}
+img.second{
+    position: fixed;
+    margin: auto;
+    width: 200px;
+    margin-top: -250px;
+}
