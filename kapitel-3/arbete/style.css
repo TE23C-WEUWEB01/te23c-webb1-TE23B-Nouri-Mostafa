@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+body.sida1{
+background-image: url(./bilder/7881130.jpg);
+}
+body.sida2{
+background-image: url(./bilder/393997088034.jpg);
+}
+body.sida3{
+    background-image: url(./bilder/4103913.jpg);
+}
+body.sida4{
+    background-image: url(./bilder/5394399.jpg);
+    }
+body.sida5{
+background-image: url(./bilder/5534403.jpg);
+}
+body.sida6{
+    background-image: url(./bilder/7521784.jpg);
+}
+div{
+background-color: white;
+width: 500px;
+margin: auto;
+border: dashed black;
+margin-top: 100px;
+padding: 20px;
+}
+h1{
+font-family: "Roboto Slab", serif;
+height: 30px;
+}
+p{
+font-family: "Jacquarda Bastarda 9", serif;
+height: 100px;
+}
+a{
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
