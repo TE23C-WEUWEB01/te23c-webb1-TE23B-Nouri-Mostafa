@@ -1,0 +1,62 @@
+
+/* textens typsnitt */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Sidans backgrund */
+body{
+background-color: black;
+}
+/* SIdans utseende */
+.container{
+width: 800px;
+padding: 30px;
+margin: auto;
+
+}
+/* bildens box utseende */
+.bild{
+background-color: grey;
+border-radius: 20px;
+padding: 50px ;
+margin-bottom: 50px;
+}
+/* bildens utessnde */
+img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* rubrikens utseende */
+h1{
+    font-family: "Playfair Display", serif;
+    color: white;
+    text-align: center;
+    font-size: 90px;
+
+}
+/* under rubrikens utseende */
+h2{
+    font-family: "Playfair Display", serif;
+    color: white;
+    text-align: center;
+
+}
+/* under under rubrikens utseede */
+h3{
+    font-family: "Playfair Display", serif;
+    color: white;
+    text-align: center;
+
+}
+/* länkens utseende */
+a{
+text-decoration: none;
+color: red;
+}
+p{
+    font-family: "Oswald", serif;
+
+}
+.link{
+    color: grey;
+
+}
