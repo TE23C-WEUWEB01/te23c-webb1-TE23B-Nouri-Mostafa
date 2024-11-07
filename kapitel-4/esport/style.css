@@ -1,0 +1,45 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* layout */
+body{
+background-color: #8d60c9;
+}
+.kontainer{
+    font-family: "Roboto", sans-serif;
+    width: 800px;
+    margin: auto;
+    background: color #e7def4;
+}
+
+/* rubrikerna */
+h1{
+    font-family: "Faster One", system-ui;   
+    font-size: 75px;
+ 
+}   
+h2{
+
+}
+/* inehåll */
+p{
+
+}
+.bild{
+background-color: #5a5a5a;
+width: 200px;
+}
+
+.bildtext{
+color: white;
+}
