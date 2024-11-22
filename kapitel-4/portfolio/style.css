@@ -44,8 +44,12 @@ a {
     color: black;
     margin-right: 20px;
     font-size: 20px;
+    border: solid #E6E8E6;
+    
 }
-
+.header1{
+   border: solid #3772FF; 
+}
 h1 {
     margin-top: 30px;
     margin-left: 40px;
@@ -112,6 +116,10 @@ td {
 
 .intro {
     width: 500px;
+}
+a:hover{
+    border: solid;
+    color: rgb(179, 255, 0);
 }
 
 @media(max-width: 1000px) {
