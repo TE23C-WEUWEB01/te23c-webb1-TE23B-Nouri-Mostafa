@@ -1,48 +1,108 @@
+/* Typsnitt */
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Noto+Serif+Ahom&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
-body, h1, h2, h3, h4, h5, h6, p, ul {
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
 
 /* Layout utseende */
-body{
+body {
+    background-color: #CAF0F8;
 
 }
-.kontainer{
 
+.kontainer {
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: #90E0EF;
+    margin-top: 20px;
+    margin-bottom: 20px ;
 }
+
 /* Menyns utseende */
-ul{
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    background-color: #00cdd8;
+    text-decoration: none;
+    color: #03045E;
+    padding: 10px 20px;
+    border-radius: 3px;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
 
 }
-li{
 
+a:hover {
+    background-color: #00B4D8;
+    box-shadow: 2px 2px 0px rgba(128, 128, 128, 0.393);
 }
-a{
-    
-}
+
 /* Innehållet */
-h1{
+h1 {
+    color: #03045E;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Noto Serif Ahom", serif;
 
 }
-figure{
+
+figure {
+    background-color: #caf0f86f;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    font-family: "Noto Serif Ahom", serif;
+    color: #82b6ff;
 
 }
-img{
+
+p {
+    color: #0077B6;
+    font-family: "Noto Serif Ahom", serif;
+    margin-bottom: 15px;
 
 }
-figcaption{
 
-}
-p{
-
-}
-.tack{
-
-}
+.tack {}
