@@ -43,16 +43,16 @@ body {
 }
 
 /* Menyns utseende */
-ul {
+.kontainer ul {
     display: flex;
     justify-content: space-between;
 }
 
-li {
+.kontainer li {
     list-style-type: none;
 }
 
-a {
+.kontainer a {
     background-color: #00cdd8;
     text-decoration: none;
     color: #03045E;
@@ -64,13 +64,21 @@ a {
 
 }
 
-a:hover {
+.kontainer ul .aktiv {
+    background-color: #0089d8;
+    }
+
+.kontainer a:hover {
     background-color: #00B4D8;
     box-shadow: 2px 2px 0px rgba(128, 128, 128, 0.393);
 }
 
+.kontainer a.aktiv:hover{
+    background-color: #0065d8;
+}
+
 /* Innehållet */
-h1 {
+.kontainer h1 {
     color: #03045E;
     margin-bottom: 20px;
     text-align: center;
@@ -79,7 +87,7 @@ h1 {
 
 }
 
-figure {
+.kontainer figure {
     background-color: #caf0f86f;
     padding: 30px;
     width: 60%;
@@ -88,21 +96,26 @@ figure {
     margin-bottom: 20px ;
 }
 
-img {
+.kontainer img {
     width: 100%;
 }
 
-figcaption {
+.kontainer figcaption {
     font-family: "Noto Serif Ahom", serif;
     color: #82b6ff;
 
 }
 
-p {
+.kontainer p {
     color: #0077B6;
     font-family: "Noto Serif Ahom", serif;
     margin-bottom: 15px;
 
 }
 
-.tack {}
+.kontainer .tack {
+    font-style: italic;
+}
+.kontainer .tack a{
+text-decoration: none;
+}
