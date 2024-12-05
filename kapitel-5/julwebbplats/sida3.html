@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, ,initial-scale=1">
     <title></title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
     <div class="snowflake">❄</div>
 
     <div class="kontainer">
         <h1>Tomtenisse</h1>
         <ul>
-            <li><a       href="./sida1.html">Julgran</a></li>
+            <li><a href="./sida1.html">Julgran</a></li>
             <li><a href="./sida2.html">snögubbar</a></li>
             <li><a class="aktiv" href="./sida3.html">tomtenisse</a></li>
 
         </ul>
-        <figure><img src="./bilder/image.jpg" alt="tomtenisse">
-        <figcaption>sexig tomtenisse</figcaption>
-        <p>tomtenissar är tomtensslavar</p>
+        <figure><img src="./media/image.jpg" alt="tomtenisse">
+            <figcaption>sexig tomtenisse</figcaption>
+            <p>tomtenissar är tomtensslavar</p>
         </figure>
+        <div class="form">
+            <label for="wishlist">Önskelista till tomte John:</label><br>
+            <textarea id="wishlist" name="wishlist" rows="4" cols="50"></textarea><br>
+            <button onclick="playAudio()" ctype="submit">Skicka</button>
+        </div>
+
+        <audio id="myAudio">
+            <source src="./media/julmusik.mp3" type="audio/mpeg">
+            Din webbläsare stöder inte ljuduppspelning.
+        </audio>
     </div>
+    <script>
+        // Function to play the audio
+        function playAudio() {
+            document.getElementById('myAudio').play();
+            document.querySelector('textarea').value = "skickat"
+            document.querySelector('textarea').style = "color: #228b22;background-color: #FFFFFF"
+            document.querySelector('textarea').disabled = true
+
+
+            setTimeout(() => {
+                document.querySelector('textarea').value = ""; // Clear the textarea
+                document.querySelector('textarea').disabled = false
+                document.querySelector('textarea').style = "color: black"
+
+            }, 1000); // 3-second delay
+        }
+    </script>
 </body>
+
 </html>
