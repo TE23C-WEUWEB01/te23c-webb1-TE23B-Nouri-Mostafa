@@ -2,7 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Noto+Serif+Ahom&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* SNURR */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
 
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -86,7 +95,6 @@ body {
     text-align: center;
     font-size: 40px;
     font-family: "Noto Serif Ahom", serif;
-
 }
 
 .kontainer figure {
@@ -100,6 +108,8 @@ body {
 
 .kontainer img {
     width: 100%;
+    animation: spin 1.5s linear infinite;
+
 }
 
 .kontainer figcaption {
