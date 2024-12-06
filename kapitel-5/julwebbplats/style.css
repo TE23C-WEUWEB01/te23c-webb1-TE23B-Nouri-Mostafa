@@ -108,7 +108,7 @@ body {
 
 .kontainer img {
     width: 100%;
-    animation: spin 1ms linear infinite;
+    animation: spin 1.5s linear infinite;
 
 }
 
